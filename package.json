@@ -1,0 +1,13 @@
+{
+  "name": "yalarm",
+  "version": "1.0.0",
+  "description": "Node CLI application that starts youtube video when countdown is finished.",
+  "main": "yalarm.js",
+  "scripts": {
+    "start": "node yalarm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
