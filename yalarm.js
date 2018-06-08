@@ -21,7 +21,7 @@ function triggerAlarm() {
             });
             break;
         case 'android':
-            exec(`adb shell am start -n com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity -d "${url}"`, (error) => {
+            exec(`am start -n com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity -d "${url}"`, (error) => {
                 console.log(error ? error : "Alarm started");
             });
             break;
