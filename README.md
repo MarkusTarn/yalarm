@@ -12,4 +12,4 @@ With custom timer:
 `node yalarm 90`
 
 With custom song:
-`node yalarm 90 node yalarm`
+`node yalarm 90 https://youtu.be/QqXaWPPjHts`
